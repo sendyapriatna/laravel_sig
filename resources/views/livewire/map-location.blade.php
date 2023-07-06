@@ -1,5 +1,5 @@
 <div class="text-center">
-    <div id="map" style="height: 70vh; width: 130vh;"></div>
+    <div id="map" style="height: 70vh; width: auto;"></div>
 </div>
 
 @push('scripts')

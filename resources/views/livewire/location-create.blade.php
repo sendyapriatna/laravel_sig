@@ -28,7 +28,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="longitude" class="form-label">Longitude</label>
-                    <input type="text" class="form-control @error('langitude') is-invalid @enderror" wire:model="longitude">
+                    <input type="text" class="form-control @error('longitude') is-invalid @enderror" wire:model="longitude">
                     @error('longitude')
                     <div class="invalid-feedback">
                         {{$message}}

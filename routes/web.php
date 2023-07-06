@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\MapLocation;
 use App\Http\Livewire\GetLocation;
 use App\Http\Livewire\Dashboard;
+use App\Http\Livewire\MainDashboard;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,4 +25,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/map', MapLocation::class);
 Route::get('/dashboard', Dashboard::class);
+Route::get('/main-dashboard', MainDashboard::class);
 Route::get('/titik/json', [GetLocation::class, 'titik']);
